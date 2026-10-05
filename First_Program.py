@@ -1,0 +1,8 @@
+print ("Automatizacion de la ley Grvitacional Universal")
+masa_1= float(input("Ingrese la masa del primer objeto (kg): "))
+masa_2= float(input("Ingrese la masa del segundo objeto (kg): "))
+r= float(input("Ingrese la distancia entre los dos objetos (m): "))
+G= 6.674 * (10**-11)
+f_g = G * (masa_1 * masa_2) / (r ** 2)
+print("La fuerza gravitacional entre los dos objetos es: "+ str(float(f_g)) + "N" )
+print("Gracias por usar el programa")
